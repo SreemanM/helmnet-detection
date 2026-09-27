@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+.env
+
+# Large dataset
+data/images.npy
+
+# Generated model artifacts
+artifacts/*.keras
+artifacts/*.h5
+artifacts/*.csv
